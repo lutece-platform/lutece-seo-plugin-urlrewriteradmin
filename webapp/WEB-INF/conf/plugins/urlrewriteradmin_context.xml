@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+ <bean id="urlrewriteradmin.urlRewriterRuleDAO"  class="fr.paris.lutece.plugins.urlrewriteradmin.business.UrlRewriterRuleDAO" />  
+ <bean id="urlrewriteradmin.pageAliasGenerator" class="fr.paris.lutece.plugins.urlrewriteradmin.service.PageAliasGenerator" />
+</beans>

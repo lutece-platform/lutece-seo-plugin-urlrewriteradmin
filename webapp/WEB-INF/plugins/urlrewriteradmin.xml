@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><plug-in>
+    
+    <!-- Plugin Informations -->
+    <name>urlrewriteradmin</name>
+    <class>fr.paris.lutece.portal.service.plugin.PluginDefaultImplementation</class>
+    <version>1.2.1</version>
+    <documentation/>
+    <installation/>
+    <changes/>
+    <user-guide/>
+    <description>urlrewriteradmin.plugin.description</description>
+    <provider>urlrewriteradmin.plugin.provider</provider>
+    <provider-url>http://lutece.paris.fr</provider-url>
+    <icon-url>images/admin/skin/plugins/urlrewriteradmin/urlrewriteradmin.png</icon-url>
+    <copyright>Copyright 2001-2009 Mairie de Paris</copyright>
+    <core-version-dependency>
+		<min-core-version>2.3.0</min-core-version>
+		<max-core-version/>	
+	</core-version-dependency>
+    <db-pool-required>1</db-pool-required>
+    
+    <admin-features>
+        <admin-feature>
+            <feature-id>URLREWRITERADMIN_MANAGEMENT</feature-id>
+            <feature-title>urlrewriteradmin.adminFeature.urlrewriteradmin_management.name</feature-title>
+            <feature-description>urlrewriteradmin.adminFeature.urlrewriteradmin_management.description</feature-description>
+            <feature-level>0</feature-level>
+            <feature-url>jsp/admin/plugins/urlrewriteradmin/ManageUrlRewriterRules.jsp</feature-url>
+            <feature-icon-url>images/admin/skin/plugins/urlrewriteradmin/urlrewriteradmin_feature.png</feature-icon-url>
+        </admin-feature>
+    </admin-features>
+    
+    <!-- Applications
+    <applications>
+        <application>
+            <application-id>urlrewriteradmin</application-id>
+            <application-class>fr.paris.lutece.plugins.urlrewriteradmin.web.urlrewriteradminApp</application-class>
+        </application>
+    </applications>
+     -->
+</plug-in>
